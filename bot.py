@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 # API Key management
 load_dotenv()
-openai.api_key = os.environ.get('OPENAI_API_KEY')
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Load context from JSON
 with open("content.json", "r") as file:
