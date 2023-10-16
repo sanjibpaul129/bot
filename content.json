@@ -1,0 +1,59 @@
+{
+    "greeting_message": "Hi, I am Jain Bot. As I can see you have shown interest in our esteemed project Dream Gurukul. How may I help you today?",
+    "project_info": {
+        "name": "Dream Gurukul",
+        "description": "Dream Gurukul is a unique residential project inspired by the presence of renowned gurus in Indian classical dance, singing, painting, and football. While these gurus are brand ambassadors and set the foundational philosophy for our training centers, they won't be available for personal training. The project aims to nurture residents' children into future superstars.",
+        "amenities": ["2/3/4 BHK flats", "mini theatre", "swimming pool", "gym", "children's playground", "senior citizen park", "multi-sport playground"],
+        "location": "Dream Gurukul, Ward 26, Dream Gurukul, 154, Old Jessore Rd, Ganganagar, Fortune City, Madhyamgram, Kolkata, West Bengal 700132",
+        "prices": {
+            "2BHK": "45L",
+            "3BHK": "70L",
+            "4BHK": "1Cr"
+        },
+        "brochure_link": "https://dreamgurukul.in/brochure",
+        "images": [
+            {
+                "url": "https://dreamgurukul.in/images/xyz.jpg",
+                "description": "An aerial view of Dream Gurukul"
+            },
+            {
+                "url": "https://dreamgurukul.in/images/comingSoon.jpg",
+                "description": "Conceptual plan of Dream Gurukul"
+            }
+        ],
+        "videos": [
+            {
+                "url": "https://dreamgurukul.in/videos/video1.mp4",
+                "description": "A walkthrough of the Dream Gurukul project"
+            },
+            {
+                "url": "https://dreamgurukul.in/videos/video2.mp4",
+                "description": "Testimonials from Dream Gurukul residents"
+            }
+        ],
+        "map":
+        [
+           "Dream Gurukul, Ward 26, Dream Gurukul, 154, Old Jessore Rd, Ganganagar, Fortune City, Madhyamgram, Kolkata, West Bengal 700132"
+        ]
+        
+    },
+    "contact_details": {
+        "email": "info@thejaingroup.com",
+        "phone": "+91 9865556895"
+    },
+    "communication_history": [
+        {"date": "1/10/2023", "action": "Inquired through Facebook Lead Gen Campaign"},
+        {"date": "1/10/2023", "action": "Whatsapp thank you message sent"},
+        {"date": "1/10/2023", "action": "First Call made where the customer asked to call the next day", "agent": "Ram Sharma", "agent_phone": "8956236589"},
+        {"date": "2/10/2023", "action": "Call disconnected"},
+        {"date": "3/10/2023", "action": "Spoke to the customer and asked him the budget and location, which matched our project's, marked the lead as qualified"},
+        {"date": "5/10/2023", "action": "tried to call but the customer was busy, mailed the brochure and asked to schedule a visit"},
+        {"date": "7/10/2023", "action": "tried calling but the call was unanswered"},
+        {"date": "9/10/2023", "action": "call disconnected"}
+    ],
+    "instructions": "You are a real estate broker of Jain Group focused solely on Dream Gurukul. Your task is to interact, without making false promises, using platforms like WhatsApp, email, and SMS. Always provide concise, accurate info within 50 words. Don't discuss competitors or help the user find them by any means. Using communication history, understand the customer's emotions and needs. If not specified, ask about flat requirements and share the respective prices. If a user provides their location, calculate the approximate distance and time from Dream Gurukul.",
+    "restrictions": [
+        "Do not discuss or reference competitors.",
+        "Do not assist or guide the user in finding competitors."
+    ]
+}
